@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mx-auto">
+<div>
+<div class="navbar flex justify-between items-center p-4">
+    <div class="flex justify-center items-center md:order-2">
+    <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+      <div class="line h-0.5 w-6 my-1 bg-black"></div>
+      <div class="line h-0.5 w-6 my-1 bg-black"></div>
+      <div class="line h-0.5 w-6 my-1 bg-black"></div>
+    </div>
+    <div class="search md:hidden">searchIcon</div>
+    </div>
+    <div class="logo text-center md:order-1 flex">
+      <div class="p-4"><img src="mLogo.png" alt=""></div>
+      <div class="feature absolute w-fit md:static  md:w-auto bg:gray-200 md:bg-white inset-0 md:flex md:mx-4 space-x-2 -translate-x-96 md:translate-x-0">
+        <div class="fitem">Microsoft 365</div>
+        <div class="fitem">Office</div>
+        <div class="fitem">Window</div>
+        <div class="fitem">Surface</div>
+        <div class="fitem">Xbox</div>
+        <div class="fitem">Support</div>
+      </div>
+    </div>
+    <div class="cart text-center  md:order-3 flex">
+      <div class="search hidden md:block">All Microsoft searchIcon</div>
+      <div>
+        Cart accout
+      </div>
+    
+    </div>
+  </div>
+
+<div class="slider flex flex-col-reverse md:flex-row bg:[#ef2f2f2] mx-2">
+<div class="left flex flex-col justify-center items-center md:items-baseline py-12">
+<h1 class="text-2xl font-medium mx-5">Surface Laptop 4</h1>
+<p class="w-3/4 mx-5 text-center md:text-left">Microsoft 365 delivers cloud storage, security and Microsoft Copilot in your favourite apps – all in one plan.</p>
+<button class="text-white bg-black px-4 py-2 my-6 font-bold">Shop Now</button>
+</div>
+<div class="right">
+  <img class="w-48 md:w-[64rem]" src="office.jpg" alt="img">
+</div>
+</div>
+<div class="promo space-y-6 flex flex-col lg:flex-row">
+    <div class="item flex items-center mx-4 space-x-2 ">
+    <img class="h-8" src="Link-List-Icons-Microsoft-365.svg" alt="">
+    <span class="font-bold">Choose your Microsoft Library</span>
+    </div>
+    <div class="item flex items-center mx-4 space-x-2">
+        <img class="h-12" src="Link-List-Icons-Surface-Devices.svg" alt="">
+        <span class="font-bold">Explore Surface Devices</span>
+    </div>
+    <div class="item flex items-center mx-4 space-x-2">
+        <img class="h-8" src="Link-List-Icons-Microsoft-365.svg" alt="">
+        <span class="font-bold">Get Windows 11</span>
+    </div>
+    <div class="item flex items-center mx-4 space-x-2">
+        <img class="h-12" src="Link-List-Icons-Xbox-Games-Consoles.svg" alt="">
+        <span class="font-bold">Buy Xbox Games</span>
+    </div>
+</div>
+</div>
+</body>
+</html>
